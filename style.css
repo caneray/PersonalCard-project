@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('arkaplanmanzara.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    height: 90%;
+    background-color: #6b5858;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: sans-serif;
+}
+#ppfoto{
+    border-radius: 40%;
+    width: 230px;
+    height: 200px;
+    transition: 0.5s; /* hareketin hızlılığı yavaşlığı */
+    cursor: pointer;
+}
+#ppfoto:hover{
+    transform: scale(0.9); /* içe doğru hareket */
+}
+.box h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 15px;
+    letter-spacing: 4px; /* karakter arası boşluk */
+    font-weight: 100;
+}
+.box p{
+    text-align: justify; /* iki yana yaslama */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style-type: none;
+}
+.box li a{
+    color: black;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
